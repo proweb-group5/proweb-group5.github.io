@@ -1,0 +1,46 @@
+@media(max-width: 1200px){
+	.section_events .card,
+	.section_events .events_cover{
+		height: 100%;
+	}
+}
+@media(min-width: 768px){
+	.header .navbar-brand{
+		/*d-n*/
+		display: none;
+	}
+}
+@media(max-width: 768px){
+	.header .navbar-nav .nav-item-logo{
+		/*d-n*/
+		display: none;
+	}
+	.header ul.navbar-nav a{
+		background-color: #eee;
+		padding-left: 10px;
+		/*m5-0*/
+		margin: 5px 0;
+		/*w200*/
+		width: 200px;
+		/*tac*/
+		text-align: center;
+	}
+	.header ul.navbar-nav a:hover{
+		/*bgc*/
+		background-color: #fff;
+	}
+	.header .header_cover .title{
+		font-size: 10vw;
+		line-height: 15vw;
+	}
+	.header{
+		padding-bottom: 33vw;
+	}
+	.header .header_cover{
+		margin-top: 20vw;
+	}
+	.header .header_cover .btn_red{
+		padding: 12px 35px;
+		font-size: 14px;
+	}
+}
